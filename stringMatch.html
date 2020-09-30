@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Searches a string for a match</title>
+  </head>
+  <body>
+    <a href="repeat.html">Next</a><br />
+
+    <h3>Searches a string for a match against a regular expression</h3>
+
+    <script>
+      let string = "Anything worth doing is worth doing well";
+
+      let match = string.match(/doing/g);
+      document.write(match);
+    </script>
+  </body>
+</html>
